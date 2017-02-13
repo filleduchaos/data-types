@@ -1,0 +1,19 @@
+{
+  "name": "data-types",
+  "version": "1.0.0",
+  "description": "Javascript project for Andela Home Study Day 1 (DataTypes)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/datatypes-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princess-essien/data-types.git"
+  },
+  "author": "Princess-Jewel Essien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princess-essien/data-types/issues"
+  },
+  "homepage": "https://github.com/princess-essien/data-types#readme"
+}
