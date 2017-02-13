@@ -17,13 +17,16 @@ module.exports = {
 			case 'string':
 				return data.length;
 
+			case 'function':
+				return data(true);
+
 			default:
 				if (Array.isArray(data)) {
 					if (data.length < 3) {
 						return;
 					} else return data[2];
 				} else return 'no value';
-				
+
 		}
 
 	}
