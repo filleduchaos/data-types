@@ -13,6 +13,9 @@ module.exports = {
 				} else if (data < 100) {
 					return 'less than 100';
 				} else return 'more than 100';
+
+			case 'string':
+				return data.length;
 				
 			default:
 				return 'no value';
