@@ -16,9 +16,14 @@ module.exports = {
 
 			case 'string':
 				return data.length;
-				
+
 			default:
-				return 'no value';
+				if (Array.isArray(data)) {
+					if (data.length < 3) {
+						return;
+					} else return data[2];
+				} else return 'no value';
+				
 		}
 
 	}
